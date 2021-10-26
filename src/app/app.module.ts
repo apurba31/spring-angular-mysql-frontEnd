@@ -23,7 +23,7 @@ import { EmployeeDetailsComponent } from './employee-details/employee-details.co
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
